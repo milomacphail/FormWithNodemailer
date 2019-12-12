@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import FormUserDetails from './FormUserDetails';
 
 export class UserForm extends Component {
 
@@ -46,13 +47,13 @@ handleChange = input => e => {
                 />
             )
             case 2:         
-                return <h1>Form personal details</h1>
+                return <h1>Form personal details</h1>;
             case 3:         
-                return <h1>Confirm</h1>
+                return <h1>Confirm</h1>;
             case 4:         
-                return <h1>Success</h1>
-
+                return <h1>Success</h1>;
+        }
     }
 }
 
-export default UserForm
+export default UserForm;
